@@ -1,0 +1,85 @@
+/* font-family: 'Permanent Marker', cursive;
+font-family: 'Texturina', serif; */
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body{
+    background-color: #f8f3e5ef;
+  
+}
+.navbar-nav.ms-auto.mb-2.mb-lg-0.ml-lg-auto li a{
+    
+    font-family: 'Permanent Marker', cursive;
+}
+#title{
+   background: url(bgaska.JPEG) ;
+    color:  #f8f3e5ef;
+    font-family: 'Texturina', serif;
+  
+}
+.title_link{
+    text-decoration:underline; 
+    color:#f8f3e5ef; 
+
+}
+.title_link:hover{
+    color: #612517;
+}
+
+h1{
+    text-align: center;
+    background-color: #612517;
+    color:#ddc7b0;
+    width: 100%;
+    height: 100px;
+  padding-top: 25px;
+  font-family: 'Permanent Marker', cursive;
+  margin: 0px;
+  padding-right: 0px;
+    
+}
+
+.projectImg {
+    width: 250px;
+    height:250px ;
+    transition: all 1s;
+    margin-bottom: 19px;
+    margin-top: 15px;
+  }
+.projectImg:hover{
+    transform: scale(1.1);
+}
+.col-lg-3.col-md-6.my-auto.mx-auto a{
+    text-decoration: none; 
+    margin-left: auto;
+    margin-right: auto;
+   color: #f05454;
+   font-family: 'Permanent Marker', cursive;
+    
+
+}
+.contact.my-auto {
+    display:flex ;
+    justify-content:center;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 15px;  
+}
+.contact.my-auto li {
+
+    display: inline-block;
+    margin: 10px 20px 50px 10px; 
+    text-align: center; 
+    font-family: 'Yusei Magic', sans-serif;
+}
+.aska{
+    background: unset;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 80px;
+}
